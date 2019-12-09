@@ -2,7 +2,7 @@ import requests
 
 url = "https://dapi.kakao.com/v2/local/search/address.json"
 
-REST_API_KEY = "cb183416d740686de67786ceffea553c"
+REST_API_KEY = "input your key"
 headers = {"Authorization": "KakaoAK {}".format(REST_API_KEY)}
 address = "서울특별시 금천구 가산동 가산디지털1로"
 
